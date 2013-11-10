@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item android:id="@+id/action_sugerencia" 
+          android:title="Sugerencia"
+          android:icon="@drawable/contentedit"
+          android:showAsAction="ifRoom"
+          android:onClick="sendSpotMessage">
+    </item>
+    <item android:id="@+id/action_lugares"
+         android:title="Lugares"
+         android:icon="@drawable/locationplace" 
+        android:showAsAction="ifRoom"
+        android:onClick="showAllSpots"></item>
+    
+    
+    
+</menu>

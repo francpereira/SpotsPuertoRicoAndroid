@@ -1,0 +1,57 @@
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="17.0dp" />
+
+            <TextView
+                android:id="@+id/spaceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis nulla vitae nulla tempus hendrerit at eleifend metus. Etiam laoreet, tortor vitae pretium luctus, quam turpis cursus risus, nec tristique quam erat sed arcu. " />
+
+            <TextView
+                android:id="@+id/spaceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+
+            <ImageView
+                android:id="@+id/spotImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal" 
+                android:scaleType="fitXY" />
+            
+        </LinearLayout> 
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>

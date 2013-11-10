@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spots Puerto Rico</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_spots_list">SpotsListActivity</string>
+    <string name="title_activity_spot_detail">SpotDetail</string>
+    <string name="title_activity_activities_fragment">ActivitiesFragment</string>
+    <string name="title_activity_lugares_fragment">LugaresFragment</string>
+    <string name="title_activity_all_spots_map">AllSpotsMap</string>
+    <string name="title_activity_new_spot_send">NewSpotSend</string>
+
+</resources>
